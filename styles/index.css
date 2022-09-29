@@ -1,0 +1,118 @@
+/*
+font-family: 'Smooch', cursive;
+font-family: 'Vulgar Display', sans-serif;
+
+https://colorhunt.co/palette/125c133e7c17f4a442e8e1d9
+*/
+
+body{
+   margin: 0 auto;
+
+}
+
+header{
+   background-color: #125C13;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0 45px;
+}
+
+.right-header{
+   display: flex;
+   justify-content: space-between;
+   gap: 60px;
+   margin-right: 70px;
+}
+
+.left-header{
+   text-align: center;
+   display: flex;
+   align-items: center;
+}
+
+.imagem-header{
+   width: 90px;
+   height: 90px;
+   border-radius: 50%;
+   margin-right: 20px;
+}
+
+li{
+   display: inline-block;
+}
+
+a{
+   background-color: #3E7C17;
+   color: #E8E1D9;
+   border: 0px solid;
+   border-radius: 15px;
+   padding: 10px;
+}
+
+a:hover{
+   background-color: #E8E1D9;
+   color: #125C13;
+   padding: 10px;
+   transition: 0.3s all;
+}
+
+h1{
+   font-family: 'Vulgar Display', sans-serif;
+   color: #E8E1D9;
+   text-shadow: -3px -3px black;
+}
+
+h2{
+   color: #125C13;
+   font-family: 'Vulgar Display', sans-serif;
+}
+
+p{
+   font-family: 'Montserrat';
+   font-weight: 600;
+   line-height: 1.5;
+}
+
+.subtitle{
+   font-family: 'Smooch', cursive;
+   color: #011f01;
+   font-weight: bolder;
+}
+
+
+h1, .subtitle, .telephone{
+   margin: 0;
+   padding: 0;
+}
+
+.product{
+   background-color: #E8E1D9;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+article{
+   margin: 0;
+   padding: 0;
+}
+
+aside{
+   max-width: 400px;
+}
+
+img{
+   width: 300px;
+}
+
+
+footer{
+   font-family: 'Vulgar Display';
+   background-color: #125C13;
+   color: #E8E1D9;
+   display: flex;
+   justify-content:center;
+   align-items: center;
+   padding: 0 45px;
+}
+
