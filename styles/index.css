@@ -7,7 +7,6 @@ https://colorhunt.co/palette/125c133e7c17f4a442e8e1d9
 
 body{
    margin: 0 auto;
-
 }
 
 header{
@@ -86,6 +85,9 @@ h1, .subtitle, .telephone{
    padding: 0;
 }
 
+.telephone{
+   color: #E8E1D9;
+}
 .product{
    background-color: #E8E1D9;
    display: flex;
